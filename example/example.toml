@@ -1,0 +1,10 @@
+# The root inventory the script will look into.
+inventory_root = "./example/inventory/"
+
+# The path to the jsonschema that will be run for all hosts
+host_jsonschema = "./example/jsonschema/hosts.json"
+
+[[jsonschemas]]
+name = "CHANGEME"
+path = "group_vars/all.yml"
+jsonschema = "./example/jsonschema/group_vars_all.json"

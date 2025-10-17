@@ -1,0 +1,5 @@
+{
+	"_doc": "This json schema is used to validate all hosts",
+	"type": "object"
+}
+
